@@ -412,7 +412,7 @@ class Header extends React.PureComponent {
           maskElement={
             <View style={styles.iconMaskContainer}>
               <Image
-                source={require('../assets/back-icon-mask.png')}
+                source={{uri:'back_icon_mask'}}
                 style={styles.iconMask}
               />
               <View style={styles.iconMaskFillerRect} />
